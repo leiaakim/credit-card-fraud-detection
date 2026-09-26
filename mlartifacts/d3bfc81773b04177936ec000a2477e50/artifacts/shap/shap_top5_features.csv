@@ -1,0 +1,6 @@
+feature,mean_|SHAP|,effect,median (legit),median (fraud)
+V14,0.5267985177365984,lower value → more fraud-like,0.057887298,-6.7746402235
+V4,0.5237375909512044,higher value → more fraud-like,-0.012348281,3.953942247
+V26,0.2411268910276512,lower value → more fraud-like,-0.054693024,0.115167335
+V12,0.20387998774881055,lower value → more fraud-like,0.133610255,-6.0147616835
+Time,0.200392527574865,lower value → more fraud-like,84171.0,64029.0

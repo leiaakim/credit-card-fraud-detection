@@ -1,0 +1,23 @@
+artifact_path: file:///home/claude/fraud/mlartifacts/models/m-a91ca9c3a1764b55aa63848ce4a4602a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-a91ca9c3a1764b55aa63848ce4a4602a
+model_size_bytes: 2985
+model_uuid: m-a91ca9c3a1764b55aa63848ce4a4602a
+prompts: null
+run_id: 59413bb2682649fcb307d5278aa7c341
+utc_time_created: '2026-09-26 07:58:34.717030'
